@@ -2,19 +2,19 @@
 #include <stdlib.h>
 
 int main() {
-    float diemToan, diemLy, diemHoa, diemTB;
+    int diemToan, diemLy, diemHoa, diemTB;
 
     printf("Nhap diem Toan: ");
-    scanf("%f", &diemToan);
+    scanf("%d", &diemToan);
     printf("Nhap diem Ly: ");
-    scanf("%f", &diemLy);
+    scanf("%d", &diemLy);
     printf("Nhap diem Hoa: ");  
-    scanf("%f", &diemHoa);
+    scanf("%d", &diemHoa);
 
-    diemTB = (float)(diemToan * 3 + diemLy * 2 + diemHoa) / 6.0;
+    diemTB = (diemToan * 3 + diemLy * 2 + diemHoa) / 6;
 
     printf("===KET QUA===\n");
-    printf("Diem trung binh: %.2f\n", diemTB);
+    printf("Diem trung binh: %d\n", diemTB);
 
     system("pause");
     return 0;

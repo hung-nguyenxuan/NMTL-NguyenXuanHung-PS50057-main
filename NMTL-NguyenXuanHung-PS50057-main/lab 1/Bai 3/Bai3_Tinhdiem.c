@@ -23,7 +23,7 @@ int main () {
 
     dTB = (toan*2+ly+hoa)/ (float)4;
 
-    printf("***KET QUA***\n");
+    printf("*KET QUA*\n");
     printf("Ma so sinh vien: %s\n", mssv);
     printf("Ho va ten: %s", Hoten);
     printf("Diem trung binh: %.2f\n", dTB);
