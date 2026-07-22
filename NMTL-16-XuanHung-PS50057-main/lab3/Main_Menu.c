@@ -23,7 +23,6 @@ void GiaiPTB2()
         printf("Phuong trinh vo nghiem\n");
     }
 }
-
 void TinhHocLuc()
 {
     float diem;
